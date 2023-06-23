@@ -1,0 +1,38 @@
+
+[credentials]
+service_name = "BACKEND"
+
+[database]
+driver = "snowflake"
+host = "vu15928.canada-central.azure"
+password = "DB_SF_PWD"
+username = "DB_SF_USR"
+
+[database.l2client]
+database = "L2CLIENT"
+role = "DBADMIN_L2CLIENT"
+
+[database.l2yf]
+database = "L2YELLOWFIN"
+role = "DBADMIN_L2YELLOWFIN"
+
+[database.l3yf]
+database = "L3YELLOWFIN"
+role = "DBADMIN_L3YELLOWFIN"
+
+[database.lookup]
+database = "LOOKUP"
+role = "PRODUCT_TEAM_MEMBER"
+schema = "ZZINFO"
+
+[lever]
+[lever.brand]
+package = 'lever_brand'
+[lever.industry]
+package = 'lever_industry'
+[lever.network]
+package = 'lever_network'
+[lever.jstep]
+package = 'lever_jstep'
+[lever.pricemerch]
+package = 'lever_pricemerch'

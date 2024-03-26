@@ -5,7 +5,7 @@ Handles backend data processing from models to YF inputs.
 
 ## Development Installation
 
-To achieve a smooth collaboration process, the team follows Google's style guide for python in the project. For VS Code users, add the following configurations to the settings:
+To achieve a smooth collaboration process, we follow Google's style guide for python in the project. For VS Code users, add the following configurations to the settings:
 
 ```json
     "python.formatting.yapfArgs": [
